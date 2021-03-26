@@ -6,7 +6,10 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import SocketClient from 'superid-socket-client';
+
+window.SocketClient = SocketClient;
 
 export default {
   name: 'App',
